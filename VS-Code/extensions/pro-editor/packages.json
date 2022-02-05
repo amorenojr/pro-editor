@@ -1,1 +1,44 @@
-
+{
+    "name": "pro-editor",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+    "publisher": "vscode",
+    "license": "MIT",
+    "engines": {
+      "vscode": "^1.52.0"
+    },
+    "contributes": {
+      "languages": [
+        {
+          "id": "pro-editor",
+          "extensions": [
+            ".pro",
+            ".sup"
+          ],
+          "aliases": [
+            "config.pro",
+            "config.sup"
+          ],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "pro-editor",
+          "scopeName": "source.pro-editor",
+          "path": "./syntaxes/pro-editor.tmLanguage.json"
+        }
+      ],
+      "snippets": [
+        {
+          "language": "pro-editor",
+          "path": "./snippets/pro-editor.code-snippets"
+        }
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/amorenojr/Creo-Parametric"
+    }
+  }
