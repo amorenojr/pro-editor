@@ -2,7 +2,7 @@
     "information_for_contributors": [
         "This is information for contributors..."
     ],
-    "Name": "CreoConfig",
+    "Name": "PRO/Editor",
     "scopeName": "source.pro-editor",
     "fileTypes": [".pro",".sup"],
     "patterns": [
@@ -55,7 +55,7 @@
         "constants": {
             "patterns": [
                 {
-                    "name": "keyword.constant.language.pro-editor",
+                    "name": "constant.language.pro-editor",
                     "match": "\\b(?i:(yes|no|true|false))\\b"
                 }
             ]
@@ -63,7 +63,7 @@
         "controls": {
             "patterns": [
                 {
-                    "match": "(mapkey\\s\\S+|mapkey\\(continued\\)\\s|\\%\\S+?[^\\;])",
+                    "match": "(mapkey\\s\\S+|mapkey\\(continued\\)\\s|\\%\\S[^\\;]+)",
                     "name": "keyword.control.statement.pro-editor",
                     "patterns": [
                         {
@@ -76,7 +76,7 @@
         "escaped_characters": {
             "patterns": [
                 {
-                    "match": "(\\;|\\;\\n|\\;\\\\\\n)",
+                    "match": "(\\;|\\\\)",
                     "name": "constant.character.escape.pro-editor"
                 }
             ]
@@ -84,7 +84,7 @@
         "labels": {
             "patterns": [
                 {
-                    "match": "(\\@MAPKEY_NAME|\\@MAPKEY_LABEL)",
+                    "match": "(\\@MAPKEY_(NAME|LABEL)|\\@SYSTEMCD|\\@PAUSE\\S[^\\;]+|\\@SELECTION|\\@.+)",
                     "captures": {
                         "1": {
                             "name": "storage.modifier.pro-editor"
@@ -136,7 +136,16 @@
         "variable": {
             "patterns": [
                 {
-                    "match": "(\\#|\\$)[\\w\\s/]+",
+                    "match": "(\\w+\\:|\\\\|\\$).+",
+                    "captures": {
+                        "1": {
+                            "name": "punctuation.definition.variable.pro-editor"
+                        }
+                    },
+                    "name": "variable.other.pro-editor"
+                },
+                {
+                    "match": "(\\#|\\$)[\\w\\s/\\-]+",
                     "captures": {
                         "1": {
                             "name": "punctuation.definition.variable.pro-editor"

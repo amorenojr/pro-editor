@@ -1,6 +1,7 @@
 {
-  "name": "PRO-Editor - Creo Parametric",
+  "name": "PRO/Editor",
   "version": "0.0.1",
+  "icon": "./creo-parametric-logo.png",
   "engines": {
     "vscode": ">=0.9.0-pre.1"
   },
