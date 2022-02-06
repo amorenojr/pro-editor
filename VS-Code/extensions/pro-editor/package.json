@@ -1,0 +1,25 @@
+{
+  "name": "PRO-Editor - Creo Parametric",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": ">=0.9.0-pre.1"
+  },
+  "publisher": "Aniceto Moreno Jr",
+  "contributes": {
+    "languages": [
+      {
+        "id": "pro-editor",
+        "aliases": ["PRO/Editor"],
+        "extensions": [".pro",".sup"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pro-editor",
+        "scopeName": "source.pro-editor",
+        "path": "./syntaxes/pro-editor.tmlanguage.json"
+      }
+    ]
+  }
+}
