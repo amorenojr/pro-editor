@@ -47,7 +47,13 @@
             "\t${3:y}",
             "endif"
         ],
-        "description": "The “if” test or the switching function, where c is the condition, and x and y are the returned values. If the condition results in a non-zero value, the result of the function is x; if not, the result of the function is y."
+    "else Statement": {
+        "prefix": "else",
+        "body": [
+            "else",
+            "\t${1:y}",
+        ],
+        "description": "The `else` test or the switching function that can be nested in the `if ` statement."
     },
     "var": {
         "prefix": "var",
