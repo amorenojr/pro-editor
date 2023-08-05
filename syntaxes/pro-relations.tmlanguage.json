@@ -17,6 +17,10 @@
             "end":"'"
         },
         {
+            "name":"invalid.deprecated",
+            "match":"\\b(string_pattern|average)\\b"
+        },
+        {
             "name":"keyword.control",
             "match":"\\b(if|IF|else|ELSE|endif|ENDIF)\\b"
         },
@@ -35,7 +39,7 @@
         },
         {
             "name":"support.function",
-            "match":"\\b(abs|acos|asin|atan|atan2|average|bound|cable_len|cable_think|cbl_logical_file|ceil|comparegraphs|cos|cosh|count_rows|dbl_in_tol|dead|eang|ecoordx|ecoordy|edist|elen|evalgraph|exists|exp|extract|floor|has_value|itos|ln|log|lookup_inst|massprop_param|match_value|material_param|max|min|mod|mp_assigned_mass|mp_cg_x|mp_cg_y|mp_cg_z|mp_mass|mp_surf_area|mp_volume|near|pow|search|sign|sin|sinh|sqrt|string_ends|string_length|string_match|string_pattern|string_starts|tan|tanh|trajpar|trajpar_of_pnt|value|value_by_argument|weighted_average)\\b"
+            "match":"\\b(abs|acos|asin|atan|atan2|bound|cable_len|cable_think|cbl_logical_file|ceil|comparegraphs|cos|cosh|count_rows|dbl_in_tol|dead|eang|ecoordx|ecoordy|edist|elen|evalgraph|exists|exp|extract|floor|has_value|itos|ln|log|lookup_inst|massprop_param|match_value|material_param|max|min|mod|mp_assigned_mass|mp_cg_x|mp_cg_y|mp_cg_z|mp_mass|mp_surf_area|mp_volume|near|pow|search|sign|sin|sinh|sqrt|string_ends|string_length|string_match|string_starts|tan|tanh|trajpar|trajpar_of_pnt|value|value_by_argument|weighted_average)\\b"
         },
         {
             "name":"constant.numeric",
