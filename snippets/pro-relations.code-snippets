@@ -36,7 +36,7 @@
             "\t${2:x}",
             "endif"
         ],
-        "description": "if Statement Block"
+        "description": "The `if` test or the switching function, where the `condition` is evaluated and `x` is the returned value. If the condition results in a non-zero value, the result of the function is `x`; if not, no result."
     },
     "if else Statement": {
         "prefix": "if else",
