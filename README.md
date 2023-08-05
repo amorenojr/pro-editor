@@ -1,4 +1,4 @@
-# Visual Stuido Code Extention - PRO/Editor
+# PRO/Editor - Visual Studio Code Extension
 
 ## Description
 
