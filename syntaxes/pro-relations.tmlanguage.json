@@ -1,0 +1,53 @@
+{
+    "information_for_contributors": [
+        "This is information for contributors..."
+    ],
+    "Name": "PRO/Relations",
+    "scopeName": "source.pro-relations",
+    "fileTypes": [".prorel",".rel"],
+    "patterns": [
+        {
+            "name":"string.quoted.double",
+            "begin":"\"",
+            "end":"\""
+        },
+        {
+            "name":"string.quoted.single",
+            "begin":"'",
+            "end":"'"
+        },
+        {
+            "name":"keyword.control",
+            "match":"\\b(if|IF|else|ELSE|endif|ENDIF)\\b"
+        },
+        {
+            "name":"comment.line.single",
+            "begin":"/\\*",
+            "end":"\\n"
+        },
+        {
+            "name":"keyword.operator",
+            "match":"\\&\\&|\\|\\||\\+|\\-|\\/|\\*|\\=\\=|\\>|\\<|\\<\\=|\\>\\=|\\!\\="
+        },
+        {
+            "name":"markup.bold",
+            "match":"\\b(PRO_MP_SOURCE|PRO_MP(_ALT)?_MASS|PRO_MP(_ALT)?_VOLUME|PRO_MP(_ALT)?_DENSITY|PRO_MP(_ALT)?_AREA|PRO_MP(_ALT)?_COGX|PRO_MP(_ALT)?_COGY|PRO_MP(_ALT)?_COGZ|PRO_MP(_ALT)?_IXX|PRO_MP(_ALT)?_IYY|PRO_MP(_ALT)?_IZZ|PRO_MP(_ALT)?_IXZ|PRO_MP(_ALT)?_IYZ|PRO_MP(_ALT)?_IXY|PRO_MP(_ALT)?_CSYS|PRO_MP(_ALT)?_INERTIA_ORIGIN|PRO_MP_TRF_[1-4]{1}[1-3]{1}|PTC_ORGANIZATION_ID|PTC_WM_(CREATED_(BY|ON)|ITERATION|LIFECYCLE(_STATE)?|PTC_WM_LOCATION|PTC_WM_(MODIFIED_(BY|ON)|NAME|NUMBER|REVISION|TEAM|VERSION))|PTC_MATERIAL_NAME)\\b"
+        },
+        {
+            "name":"support.function",
+            "match":"\\b(abs|acos|asin|atan|atan2|average|bound|cable_len|cable_think|cbl_logical_file|ceil|comparegraphs|cos|cosh|count_rows|dbl_in_tol|dead|eang|ecoordx|ecoordy|edist|elen|evalgraph|exists|exp|extract|floor|has_value|itos|ln|log|lookup_inst|massprop_param|match_value|material_param|max|min|mod|mp_assigned_mass|mp_cg_x|mp_cg_y|mp_cg_z|mp_mass|mp_surf_area|mp_volume|near|pow|search|sign|sin|sinh|sqrt|string_ends|string_length|string_match|string_pattern|string_starts|tan|tanh|trajpar|trajpar_of_pnt|value|value_by_argument|weighted_average)\\b"
+        },
+        {
+            "name":"constant.numeric",
+            "match":"\\d|pi"
+        },
+        {
+            "name":"variable.parameter",
+            "match":"[A-za-z]\\w+"
+        },
+        {
+            "name":"constant.language",
+            "match":"\\b(yes|no|YES|NO|true|false|TRUE|FALSE|rel_model_name|rel_model_type)\\b"
+        }
+    ]
+}

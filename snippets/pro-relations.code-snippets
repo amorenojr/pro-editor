@@ -1,0 +1,67 @@
+{
+    "Summary Block": {
+        "prefix": "summary",
+        "body": [
+            "/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "/* #region ${1:Name} Summary",
+            "/* Description  : ${2:Description}",
+            "/* Usage        : ${3:Usage}",
+            "/* Authors      : ${4:Authors}",
+            "/* Contributors : ${5:Contributors}",
+            "/* Version      : ${6:Version}",
+            "/* CreatedOn    : ${7:CreatedOn}",
+            "/* ModifiedOn   : ${8:ModifiedOn}",
+            "/* #endregion ${1:Name} Summary",
+            "/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        ],
+        "description": "Summary Block"
+    },
+    "Named Region": {
+        "prefix": "#region",
+        "body": [
+            "/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "/* #region ${1:Name}",
+            "",
+            "${2:Code}",
+            "",
+            "/* #endregion ${1:Name}",
+            "/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        ],
+        "description": "Named Region"
+    },
+    "if Statement": {
+        "prefix": "if",
+        "body": [
+            "if ${1:condition}",
+            "\t${2:x}",
+            "endif"
+        ],
+        "description": "if Statement Block"
+    },
+    "if else Statement": {
+        "prefix": "if else",
+        "body": [
+            "if ${1:condition}",
+            "\t${2:x}",
+            "else ",
+            "\t${3:y}",
+            "endif"
+        ],
+        "description": "The “if” test or the switching function, where c is the condition, and x and y are the returned values. If the condition results in a non-zero value, the result of the function is x; if not, the result of the function is y."
+    },
+    "comment": {
+        "prefix": "comment",
+        "body": [
+            "/* ${1:comment}"
+        ],
+        "description": "Comment line"
+    },
+    "abs": { "prefix": "abs", "body": [ "abs(${1:value})" ], "description": "Absolute value" },
+    "acos": { "prefix": "acos", "body": [ "acos(${1:value})" ], "description": "Arc-Cosine" },
+    "asin": { "prefix": "asin", "body": [ "asin(${1:value})" ], "description": "Arc-Sine" },
+    "exists": { "prefix": "exists", "body": [ "exists('${1:param}')" ], "description": "Evaluates whether an item, such as a parameter or dimension, exists. This can apply to the model for which the relation is being evaluated, or to any model, component, or submodel structure." },
+    "ceil": { "prefix": "ceil", "body": [ "ceil(${1:x},[${n}])" ], "description": "Rounds (x - 0.000 000 001) toward positive infinity. Optionally, specify n number of decimal places." },
+    "evalgraph": { "prefix": "evalgraph", "body": [ "evalgraph(\"${1:graph_name}\")" ], "description": "Graph evaluation function enables you to use graph features to drive dimensions through relations where graph_name is the name of the graph and x is the value along the x-axis of the graph for which the y value is returned. For sweep features, you can specify the trajectory parameter trajpar as the second argument of this function." },
+
+}
+

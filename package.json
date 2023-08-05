@@ -1,0 +1,80 @@
+{
+  "name": "pro-editor-vscode",
+  "displayName": "PRO/Editor",
+  "publisher": "N2itov Designs",
+  "description": "Provides the ability to view, edit, and visualize configuration and relation content.",
+  "license": "MIT",
+  "homepage": "./README.md",
+  "author": {
+    "name": "Aniceto Moreno Jr",
+    "email": "amorenojr@outlook.com",
+    "url": "https://github.com/amorenojr/"
+  },
+  "version": "8.0.3",
+  "icon": "./creo-parametric-logo.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Pro/Engineer",
+    "ProE",
+    "Wildfire",
+    "Creo",
+    "Creo Parametric",
+    "config.pro",
+    "config.sup",
+    "Relations"
+  ],
+  "engines": {
+    "vscode": ">=0.9.0-pre.1"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Formatters",
+    "Visualization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amorenojr/Creo-Parametric/tree/main/VS-Code/extensions/pro-editor.vscode-language-8.0.3.git"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "pro-editor",
+        "aliases": ["PRO/Editor"],
+        "extensions": [".pro",".sup",".dtl"],
+        "configuration": "./language-configuration-pro-editor.json"
+      },
+      {
+        "id": "pro-relations",
+        "aliases": ["PRO/Relations"],
+        "extensions": [".prorel",".rel"],
+        "configuration": "./language-configuration-pro-relations.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pro-editor",
+        "scopeName": "source.pro-editor",
+        "path": "./syntaxes/pro-editor.tmlanguage.json"
+      },
+      {
+        "language": "pro-relations",
+        "scopeName": "source.pro-relations",
+        "path": "./syntaxes/pro-relations.tmlanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "pro-editor",
+        "path": "./snippets/pro-editor.code-snippets"
+      },
+      {
+        "language": "pro-relations",
+        "path": "./snippets/pro-relations.code-snippets"
+      }
+    ]
+  }
+}
