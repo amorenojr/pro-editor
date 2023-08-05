@@ -47,6 +47,8 @@
             "\t${3:y}",
             "endif"
         ],
+        "description": "The `if` test or the switching function, where the `condition` is evaluated, and `x` and `y` are the returned values. If the condition results in a non-zero value, the result of the function is `x`; if not, the result of the function is `y`."
+    },
     "else Statement": {
         "prefix": "else",
         "body": [
