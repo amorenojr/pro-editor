@@ -49,6 +49,34 @@
         ],
         "description": "The “if” test or the switching function, where c is the condition, and x and y are the returned values. If the condition results in a non-zero value, the result of the function is x; if not, the result of the function is y."
     },
+    "string": {
+        "prefix": "string",
+        "body": [
+            "${1:param_name} = \"${1:param_value}\""
+        ],
+        "description": "String variable"
+    },
+    "real": {
+        "prefix": "real",
+        "body": [
+            "${1:param_name} = ${1:param_value}"
+        ],
+        "description": "Real number variable"
+    },
+    "integer": {
+        "prefix": "int",
+        "body": [
+            "${1:param_name} = ${1:param_value}"
+        ],
+        "description": "Integer number variable"
+    },
+    "boolean": {
+        "prefix": "bool",
+        "body": [
+            "${1:param_name} = ${1:param_value}"
+        ],
+        "description": "Boolean variable"
+    },
     "comment": {
         "prefix": "comment",
         "body": [
