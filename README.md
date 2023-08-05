@@ -10,27 +10,27 @@ The language visualization formatters support Creo Parametric up to v8.0.3.0
 Provides syntax highlighting for configuration files, config.(pro|sup), used by Creo Parametric.
 
 
-### pro-program-editor
-Provides syntax highlighting for PRO/Program used in Creo Parametric.
-
-
-### pro-relations-editor
+### pro-relations
 Provides syntax highlighting for PRO/Relations used in Creo Parametric.
 
 
-### pro-modchk-editor
+### pro-program (Under Development)
+Provides syntax highlighting for PRO/Program used in Creo Parametric.
+
+
+### pro-modchk  (Under Development)
 Provides syntax highlighting for MODELCheck used by Creo Parametric.
 
 
-### pro-psf-editor
+### pro-psf  (Under Development)
 Provides syntax highlighting for PTC Startup File (PSF) used by Creo Parametric.
 
 
-### pro-table-editor
+### pro-table  (Under Development)
 Provides syntax highlighting for PRO/Table used by Creo Parametric.
 
 
-### pro-hole-table-editor
+### pro-hole-table  (Under Development)
 Provides syntax highlighting for hole table files used by Creo Parametric.
 
 
