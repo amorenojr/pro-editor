@@ -1,7 +1,7 @@
 {
   "name": "pro-editor-vscode",
   "displayName": "PRO/Editor",
-  "publisher": "N2itov Designs",
+  "publisher": "Aniceto Moreno Jr",
   "description": "Provides the ability to view, edit, and visualize configuration and relation content.",
   "license": "MIT",
   "homepage": "./README.md",
@@ -52,6 +52,18 @@
         "aliases": ["PRO/Relations"],
         "extensions": [".prorel",".rel"],
         "configuration": "./language-configuration-pro-relations.json"
+      },
+      {
+        "id": "pro-hole-chart",
+        "aliases": ["PRO/Hole Chart"],
+        "extensions": [".hol"],
+        "configuration": "./language-configuration-pro-hole-chart.json"
+      },
+      {
+        "id": "pro-psf",
+        "aliases": ["PRO/PTC Start-up File"],
+        "extensions": [".psf"],
+        "configuration": "./language-configuration-pro-psf.json"
       }
     ],
     "grammars": [
@@ -64,6 +76,16 @@
         "language": "pro-relations",
         "scopeName": "source.pro-relations",
         "path": "./syntaxes/pro-relations.tmlanguage.json"
+      },
+      {
+        "language": "pro-hole-chart",
+        "scopeName": "source.pro-hole-chart",
+        "path": "./syntaxes/pro-hole-chart.tmlanguage.json"
+      },
+      {
+        "language": "pro-psf",
+        "scopeName": "source.pro-psf",
+        "path": "./syntaxes/pro-psf.tmlanguage.json"
       }
     ],
     "snippets": [
@@ -74,6 +96,14 @@
       {
         "language": "pro-relations",
         "path": "./snippets/pro-relations.code-snippets"
+      },
+      {
+        "language": "pro-hole-chart",
+        "path": "./snippets/pro-hole-chart.code-snippets"
+      },
+      {
+        "language": "pro-psf",
+        "path": "./snippets/pro-psf.code-snippets"
       }
     ]
   }
