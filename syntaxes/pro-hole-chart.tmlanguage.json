@@ -1,0 +1,58 @@
+{
+    "information_for_contributors": [
+        "This is information for contributors..."
+    ],
+    "Name": "PRO/Hole Chart",
+    "scopeName": "source.pro-hole-chart",
+    "fileTypes": [".hol"],
+    "patterns": [
+        {
+            "name":"string.quoted.double",
+            "begin":"\"",
+            "end":"\""
+        },
+        {
+            "name":"string.quoted.single",
+            "begin":"'",
+            "end":"'"
+        },
+        {
+            "name":"support.type",
+            "match":"\\[\\.\\d{1}\\]"
+        },
+        {
+            "name":"comment.line.single",
+            "begin":"\\# ",
+            "end":"\\n"
+        },
+        {
+            "name":"markup.bold",
+            "match":"\\b((TABLE|THREAD|DEFAULT_CALLOUT_FORMAT)_DATA)\\b"
+        },
+        {
+            "name":"keyword.control",
+            "match":"\\&\\w+"
+        },
+        {
+            "name":"constant.numeric",
+            "match":"\\d"
+        },
+        {
+            "name":"variable.parameter",
+            "match":"\\b(PRO_VERSION|THREAD_(NAME|SERIES|TYPE|CLASS)|TABLE_UNITS|DEPTH_RATIO|CALLOUT_FORMAT|HOLE_TYPE|THREAD|DRILLED_DEPTH|THREAD_DEPTH|CSINK|CBORE|EXIT_CSINK|FASTENER_ID|BASIC_DIAM|TAP_DR|TAP_DEC|PERCENT_THREAD|CLEAR_DR_CLOSE|CLOSE_DEC|CLEAR_DR_FREE|FREE_DEC|CLEAR_DR_MED|MED_DEC|CBOREDIAM|CBOREDEPTH|CSINKDIAM|CSINKANGLE|BOTCSINKDIAM|BOTCSINKANGLE)\\b"
+        },
+        {
+            "name":"constant.language",
+            "match":"(?i)\\b(yes|no|tapered|thru|var|clearance|drilled|tapped)\\b"
+        },
+        {
+            "name":"constant.character",
+            "match":"\\<CTRL\\-a\\>(n|v|w|x|\\$)\\<CTRL\\-b\\>"
+        },
+        {
+            "name":"invalid.deprecated",
+            "match":"NOTE NOT CONFIGURED|(?i)NA"
+        }
+    ]
+}
+

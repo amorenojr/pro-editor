@@ -1,0 +1,29 @@
+{
+    "Named Region": {
+        "prefix": "#region",
+        "body": [
+            "/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "/* #region ${1:Name}",
+            "",
+            "${2:Code}",
+            "",
+            "/* #endregion ${1:Name}",
+            "/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        ],
+        "description": "Named Region"
+    },
+    "comment": {
+        "prefix": "comment",
+        "body": [
+            "// ${1:comment}"
+        ],
+        "description": "Comment Line"
+    },
+    "environment variable": {
+        "prefix": "env",
+        "body": [
+            "ENV=${1:name}=${2:value}"
+        ],
+        "description": "Environment Variable"
+    }
+}

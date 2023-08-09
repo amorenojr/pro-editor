@@ -1,0 +1,58 @@
+{
+    "information_for_contributors": [
+        "This is information for contributors..."
+    ],
+    "Name": "PRO/PTC Start-up File",
+    "scopeName": "source.pro-psf",
+    "fileTypes": [".psf"],
+    "patterns": [
+        {
+            "name":"keyword.control",
+            "match":"\\%\\w+\\%"
+        },
+        {
+            "name":"string.quoted.double",
+            "begin":"\"",
+            "end":"\""
+        },
+        {
+            "name":"string.quoted.single",
+            "begin":"'",
+            "end":"'"
+        },
+        {
+            "name":"support.type",
+            "match":"(\\=|\\-=|\\+=)"
+        },
+        {
+            "name":"comment.line.single",
+            "begin":"// ",
+            "end":"\\n"
+        },
+        {
+            "name":"markup.bold",
+            "match":"\\b(ENV|RUN)\\b"
+        },
+        {
+            "name":"constant.numeric",
+            "match":"\\d"
+        },
+        {
+            "name":"variable.parameter",
+            "match":"\\b(MECH_(LP|HOME)|PRO_MECH_COMMAND|RPC_TIMEOUT|MEDI_HOME|PATH|NMSD_TIMEOUT|PRO_COMM_MSG_EXE|PROE_START|CDRS_DATA|PRO_IMAGE_CONVERTER|PROGUIDE_DIRECTORY|SPG_DIRECTORY|PRO_USRMAIN|PROTABLE_DIRECTORY|MOZILLA_FIVE_HOME|PROTAB|ZIP_EXEC|CLHOME|PVIEW_PROEPVIEW_HOME|CV_ENV_HOME|DEBUG_HLP_DLL_PATH|PTC_D_LICENSE_FILE|CREO_APP|CREOPMA_FEATURE_NAME|DBG_NCPOST_PATH|PRO_ALLOW_EARLY_RETURN)\\b"
+        },
+        {
+            "name":"constant.language",
+            "match":"(?i)\\b(true|false)\\b"
+        },
+        {
+            "name":"constant.character",
+            "match":"(?i)\\b(PRODUCT|DESC|SHIPCODE|CREO_COMMON_FILES|VERSION)\\b"
+        },
+        {
+            "name":"invalid.deprecated",
+            "match":"(?i)\\b(NOTE NOT CONFIGURED|NA)\\b"
+        }
+    ]
+}
+
