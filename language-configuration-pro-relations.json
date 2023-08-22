@@ -2,6 +2,9 @@
     "comments": {
         "lineComment": "/*"
     },
+    "brackets": [
+        ["(",")"]
+    ],
     "folding": {
         "markers": {
             "start": "",
