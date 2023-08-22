@@ -4,8 +4,8 @@
     },
     "folding": {
         "markers": {
-            "start": "mapkey\\s\\S+",
-            "end": "\\;\\\\"
+            "start": "^mapkey\\s{1}",
+            "end": ";$"
         }
     }
 }
