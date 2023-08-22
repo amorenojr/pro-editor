@@ -106,7 +106,7 @@
             "",
             "for ${1:var0 var1 ... varN}"
         ],
-        "description": "Comment line"
+        "description": "Simultaneous equations solver"
     },
     "abs": { "prefix": "abs", "body": [ "abs(${1:x})" ], "description": "Returns the absolute value of x. If x≥0, the result of the function is x; if x<0, the result of the function is -x." },
     "acos": { "prefix": "acos", "body": [ "acos(${1:x})" ], "description": "Arc cosine function, where the value of x lies between -1.0 and 1.0. Result is the angular value in degrees." },
