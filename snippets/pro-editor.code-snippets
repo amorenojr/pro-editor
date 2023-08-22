@@ -11,5 +11,12 @@
             "! ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         ],
         "description": "Named Region"
+    },
+    "comment": {
+        "prefix": "comment",
+        "body": [
+            "! ${1:comment}"
+        ],
+        "description": "Comment Line"
     }
 }
