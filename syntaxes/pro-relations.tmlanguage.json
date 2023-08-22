@@ -18,11 +18,11 @@
         },
         {
             "name":"invalid.deprecated",
-            "match":"\\b(string_pattern|average)\\b"
+            "match":"(?i)\\b(string_pattern|average)\\b"
         },
         {
             "name":"keyword.control",
-            "match":"(?i)\\b(if|else|endif)\\b"
+            "match":"(?i)\\b(if|else|endif|solve|for)\\b"
         },
         {
             "name":"comment.line.single",
@@ -34,16 +34,24 @@
             "match":"\\&\\&|\\|\\||\\+|\\-|\\/|\\*|\\=\\=|\\>|\\<|\\<\\=|\\>\\=|\\!\\=|\\~\\=|\\<\\>"
         },
         {
+            "name":"support.class",
+            "match":"(?i)\\b(REL_MODEL_(NAME|TYPE)(\\:((c|f)id_)?\\d+)?|MDL_PARAM_(NAME|VALUE)|[rtx-z])\\b"
+        },
+        {
             "name":"markup.bold",
-            "match":"\\b(PRO_MP_(?:ALT_)?(?:SOURCE|MASS|VOLUME|DENSITY|AREA|COG[X-Z]{1}|I[X-Z]{2}|CSYS|INERTIA_ORIGIN|TRF_[1-4]{1}[1-3]{1})|PTC_ORGANIZATION_ID|PTC_WM_(?:(?:CREATED|MODIFIED)_(?:BY|ON)|ITERATION|LIFECYCLE(?:_STATE)?|LOCATION|NAME|NUMBER|REVISION|TEAM|VERSION)|PTC_YOUNG_MODULUS|PTC_POISSON_RATIO|PTC_MASS_DENSITY|PTC_THERMAL_EXPANSION_COEF|PTC_(?:TENSILE|COMPR|SHEAR)_ULTIMATE_STRESS|PTC_THERMAL_CONDUCTIVITY|PTC_SPECIFIC_HEAT|PTC_(?:HARDNESS|CONDITION)|PTC_INITIAL_BEND_Y_FACTOR|PTC_BEND_TABLE|PTC_MATERIAL_(?:DESCRIPTION|NAME)|PTC_HARDNESS_TYPE)\\b"
+            "match":"(?i)\\b(PRO_MP_(?:ALT_)?(?:SOURCE|MASS|VOLUME|DENSITY|AREA|COG[X-Z]{1}|I[X-Z]{2}|CSYS|INERTIA_ORIGIN|TRF_[1-4]{1}[1-3]{1})|PTC_ORGANIZATION_ID|PTC_WM_(?:(?:CREATED|MODIFIED)_(?:BY|ON)|ITERATION|LIFECYCLE(?:_STATE)?|LOCATION|NAME|NUMBER|REVISION|TEAM|VERSION)|PTC_YOUNG_MODULUS|PTC_POISSON_RATIO|PTC_MASS_DENSITY|PTC_THERMAL_EXPANSION_COEF|PTC_(?:TENSILE|COMPR|SHEAR)_ULTIMATE_STRESS|PTC_THERMAL_CONDUCTIVITY|PTC_SPECIFIC_HEAT|PTC_(?:HARDNESS|CONDITION)|PTC_INITIAL_BEND_Y_FACTOR|PTC_BEND_TABLE|PTC_MATERIAL_(?:DESCRIPTION|NAME)|PTC_HARDNESS_TYPE|(((r|rs|k|A)?d|(t|p)(p|m|pm)?)\\d+(\\:((c|f)id_)?\\d+)?))\\b"
         },
         {
             "name":"support.function",
-            "match":"\\b(abs|acos|asin|atan|atan2|bound|cable_len|cable_think|cbl_logical_file|ceil|comparegraphs|cos|cosh|count_rows|dbl_in_tol|dead|eang|ecoordx|ecoordy|edist|elen|evalgraph|exists|exp|extract|floor|has_value|itos|ln|log|lookup_inst|massprop_param|match_value|material_param|max|min|mod|mp_assigned_mass|mp_cg_x|mp_cg_y|mp_cg_z|mp_mass|mp_surf_area|mp_volume|near|pow|search|sign|sin|sinh|sqrt|string_ends|string_length|string_match|string_starts|tan|tanh|trajpar|trajpar_of_pnt|value|value_by_argument|weighted_average)\\b"
+            "match":"(?i)\\b(abs|acos|asin|atan|atan2|bound|cable_len|cable_think|cbl_logical_file|ceil|comparegraphs|cos|cosh|count_rows|dbl_in_tol|dead|eang|ecoordx|ecoordy|edist|elen|evalgraph|exists|exp|extract|floor|has_value|itos|ln|log|lookup_inst|massprop_param|match_value|material_param|max|min|mod|mp_assigned_mass|mp_cg_x|mp_cg_y|mp_cg_z|mp_mass|mp_surf_area|mp_volume|near|pow|search|sign|sin|sinh|sqrt|string_ends|string_length|string_match|string_starts|tan|tanh|trajpar|trajpar_of_pnt|value|value_by_argument|weighted_average)\\b"
+        },
+        {
+            "name": "invalid.illegal.pro-editor",
+            "match": "(?i)\\b(pi|g)\\b"
         },
         {
             "name":"constant.numeric",
-            "match":"\\d|pi"
+            "match":"\\d"
         },
         {
             "name":"variable.parameter",
@@ -51,7 +59,7 @@
         },
         {
             "name":"constant.language",
-            "match":"(?i)\\b(yes|no|true|false|rel_model_name|rel_model_type)\\b"
+            "match":"(?i)\\b(yes|no|true|false)\\b"
         }
     ]
 }
