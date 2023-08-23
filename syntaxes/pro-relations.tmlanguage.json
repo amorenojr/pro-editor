@@ -17,10 +17,6 @@
             "end":"'"
         },
         {
-            "name":"invalid.deprecated",
-            "match":"(?i)\\b(string_pattern|average)\\b"
-        },
-        {
             "name":"keyword.control",
             "match":"(?i)\\b(if|else|endif|solve|for)\\b"
         },
