@@ -43,7 +43,7 @@
         },
         {
             "name":"support.function",
-            "match":"(?i)\\b(abs|acos|asin|atan|atan2|bound|cable_len|cable_think|cbl_logical_file|ceil|comparegraphs|cos|cosh|count_rows|dbl_in_tol|dead|eang|ecoordx|ecoordy|edist|elen|evalgraph|exists|exp|extract|floor|has_value|itos|ln|log|lookup_inst|massprop_param|match_value|material_param|max|min|mod|mp_assigned_mass|mp_cg_x|mp_cg_y|mp_cg_z|mp_mass|mp_surf_area|mp_volume|near|pow|search|sign|sin|sinh|sqrt|string_ends|string_length|string_match|string_starts|tan|tanh|trajpar|trajpar_of_pnt|value|value_by_argument|weighted_average)\\b"
+            "match":"(?i)\\b(abs|(a)?cos(h)?|(a)?sin|(a)?tan(h)?(2)?|bound|cable_(len|think)|cbl_logical_file|ceil|comparegraphs|count_rows|dbl_in_tol|dead|e(coord[x-y]|ang|dist|len)|evalgraph|exists|exp|extract|floor|has_value|itos|ln|log|lookup_inst|massprop_param|match_value|material_param|max|min|mod|mp_(cg_[x-z]|assigned_mass|mass|surf_area|volume)|near|pow|search|sign|sqrt|string_(ends|length|match|pattern|starts)|trajpar(_of_pnt)?|value(_by_argument)?|(weighted_)?average)\\b"
         },
         {
             "name": "invalid.illegal.pro-editor",
