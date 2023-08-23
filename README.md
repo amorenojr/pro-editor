@@ -6,6 +6,35 @@ This project provides language visualization formatting support for Creo Paramet
 ## **Software Version Compatibility**
 The language visualization formatters support Creo Parametric up to v8.0.3.0
 
+## Deployment
+1. Clone the repository using the git command below.
+    - Using HTTPS
+        ```
+        git clone https://github.com/amorenojr/pro-editor.git
+        ```
+    - Using SSH
+        ```
+        git@github.com:amorenojr/pro-editor.git
+        ```
+
+2. Move the cloned repository folder `pro-editor.vscode-language-8.0.3` to the following location
+    - Windows:
+        ```
+        %USERPROFILE%\.vscode\extensions
+        ```
+    - Linux:
+        ```
+        ~/.vscode/extensions
+        ```
+    - Mac OS X:
+        ```
+        %USERPROFILE%.vscodeextensions
+        ```
+
+3. Restart Visual Studio Code
+
+4. Browse the extensions and search for the `PRO/Editor`.
+
 ## **Usage**
 ### pro-editor (<span style="color:orange;">**In Testing**</span>)
 Provides syntax highlighting for configuration files, config.(pro|sup), used by Creo Parametric.
@@ -55,7 +84,7 @@ None.
 MIT License
 
 ## **Project Status**
-<span style="color:red; font-size: large;">**In Development**</span>
-<span style="color:orange; font-size: large;">**In Testing**</span>
-<!-- <span style="color:green; font-size: large;">**Released**</span> -->
-<!-- <span style="color:red; background:black; font-size: large;">**Obsolete**</span> -->
+<span style="color:red; font-size: large;">**In Development**</span><br>
+<span style="color:orange; font-size: large;">**In Testing**</span><br>
+<!-- <span style="color:green; font-size: large;">**Released**</span><br> -->
+<!-- <span style="color:red; background:black; font-size: large;">**Obsolete**</span><br> -->
