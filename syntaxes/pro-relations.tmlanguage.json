@@ -47,7 +47,7 @@
         },
         {
             "name": "invalid.illegal.pro-editor",
-            "match": "(?i)\\b(pi|g)\\b"
+            "match": "(?i)\\b(pi|g)\\b|(?-i)\\[(W(\/\\(m K\\))?|m(m(\\^2( (kg|tonne)|\/(\\(sec\\^2 C\\)|N))?|\\^3| kg\/\\(sec\\^3 C\\))?|in|il(e)?|icro(-sec|n)|g|bar|J(\/\\(tonne C\\))?|L|sec|W(\/\\(mm C\\))?|\\^2( kg)?|\\^3)?|(\/)?(C|F|K)|(1\/)?((G|M|k)?Pa|(k|p)si)|(k)?(J|m|N|W)|(k)?joule(\/\\(kg K\\))?|\\(in sec\\^2\\)\/lbm|\\(mm sec\\^2\\)\/kg|atm|bar|BTU|cal|cm(\\^2( g|\/dyne)?|\\^3)?|day|deg|dyne(\/cm\\^2)?|erg(\/\\(cm sec C\\))?(\/\\(g C\\))?|ft((\\^2( slug|\/\\(sec\\^2 F\\))?)|(\\^3))?|gal|g(rav|\/cm\\^3|_squared_per_Hz)?|hr|(k)?Hz|in(\\^2( lbm|\/\\(sec\\^2 F\\))?|\\^3| lbf sec\\^2| lbm\/\\(sec\\^3 F\\))?|kcal|kg(-f|\/mm\\^3|\/m\\^3)?|kip|L|lbf(\/\\(sec F\\)| sec\\^2\/in(\\^4)?|\/ft\\^2)?|lbm(\/\\(in sec\\^2\\)|\/in\\^3)?|MW|n(m|sec)|ounce(-f|-m)|R(PM)?|rad|sec(\/(cm|ft|in|m|mm))?|slug(\/ft\\^3)?|ton(-m|ne(\/mm\\^3)?)?|week)\\]"
         },
         {
             "name":"constant.numeric",
