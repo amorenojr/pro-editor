@@ -27,7 +27,7 @@
     "Relations"
   ],
   "engines": {
-    "vscode": ">=0.9.0-pre.1"
+    "vscode": "^0.9.0-pre.1"
   },
   "categories": [
     "Programming Languages",
