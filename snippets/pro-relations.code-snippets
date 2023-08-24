@@ -258,7 +258,7 @@
     "micron": { "prefix": "unit micron", "body": [ "[micron]" ], "description": "Unit: Micrometer" },
     "mil": { "prefix": "unit mil", "body": [ "[mil]" ], "description": "Unit: Thousanth of an inch" },
     "mile": { "prefix": "unit mile", "body": [ "[mile]" ], "description": "Unit: Mile" },
-    "min": { "prefix": "unit min", "body": [ "[min]" ], "description": "Unit: Minute" },
+    "unit min": { "prefix": "unit min", "body": [ "[min]" ], "description": "Unit: Minute" },
     "mJ": { "prefix": "unit mJ", "body": [ "[mJ]" ], "description": "Unit: Millijoule" },
     "mJ/(tonne C)": { "prefix": "unit mJ/(tonne C)", "body": [ "[mJ/(tonne C)]" ], "description": "Unit: Millijoule per metric ton force degree Celsius" },
     "mL": { "prefix": "unit mL", "body": [ "[mL]" ], "description": "Unit: Millileter" },
