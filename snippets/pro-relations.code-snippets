@@ -164,6 +164,7 @@
     "string_ends": { "prefix": "string_ends", "body": [ "string_ends(${1:string1},${2:string2})" ], "description": "TRUE, if the value of string1 ends with the value of string2." },
     "string_length": { "prefix": "string_length", "body": [ "string_length(${1:string})" ], "description": "Returns the number of characters in a parameter value or string." },
     "string_match": { "prefix": "string_match", "body": [ "string_match(${1:string1},${2:string2})" ], "description": "TRUE, if the value of string1 matches the value of string2." },
+    "string_pattern": { "prefix": "string_pattern", "body": [ "string_pattern(${1:string},\"${2:pattern}\")" ], "description": "TRUE, if the value of string matches the value of pattern." },
     "string_starts": { "prefix": "string_starts", "body": [ "string_starts(${1:string1},${2:string2})" ], "description": "TRUE, if the value of string1 starts with the value of string2." },
     "tan": { "prefix": "tan", "body": [ "tan(${1:x})" ], "description": "Tangent trigonometric function, where x is an angular value in degrees." },
     "tanh": { "prefix": "tanh", "body": [ "tanh(${1:x})" ], "description": "Hyperbolic tangent function, where the value of x lies between -85.0 and 85.0" },
