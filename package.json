@@ -1,7 +1,7 @@
 {
   "name": "pro-editor-vscode",
   "displayName": "PRO/Editor",
-  "publisher": "Aniceto Moreno Jr",
+  "publisher": "amorenojr",
   "description": "Provides the ability to view, edit, and visualize configuration and relation content.",
   "license": "MIT",
   "homepage": "./README.md",
