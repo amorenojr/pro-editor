@@ -10,6 +10,13 @@
     "email": "amorenojr@outlook.com",
     "url": "https://github.com/amorenojr/"
   },
+  "__metadata": {
+    "publisherDisplayName": "Aniceto Moreno Jr",
+    "targetPlatform": "undefined",
+    "updated": false,
+    "isPreReleaseVersion": false,
+    "preRelease": false
+  },
   "version": "8.0.3",
   "icon": "./creo-parametric-logo.png",
   "galleryBanner": {
