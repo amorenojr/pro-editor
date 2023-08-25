@@ -75,7 +75,7 @@ Future development as needed.
 
 
 ## **Author(s)**
-Aniceto Moreno Jr, [amorenojr@outlook.com](mailto:amorenojr@outlook.com), [github.com/amorenojr](https://github.com/amorenojr/)
+Aniceto Moreno Jr, [github.com/amorenojr](https://github.com/amorenojr/)
 
 ## **Contributors**
 None.
