@@ -287,6 +287,7 @@
     "ounce-f": { "prefix": "unit ounce-f", "body": [ "[ounce-f]" ], "description": "Unit: Ounce (Force)" },
     "ounce-m": { "prefix": "unit ounce-m", "body": [ "[ounce-m]" ], "description": "Unit: Ounce (Mass)" },
     "Pa": { "prefix": "unit Pa", "body": [ "[Pa]" ], "description": "Unit: Pascal" },
+    "pi": { "prefix": "constant π (pi)", "body": [ "PI" ], "description": "Constant: π (Pi) = 3.142" },
     "psi": { "prefix": "unit psi", "body": [ "[psi]" ], "description": "Unit: Pounds force per square inch" },
     "R": { "prefix": "unit R", "body": [ "[R]" ], "description": "Unit: Rankine" },
     "rad": { "prefix": "unit rad", "body": [ "[rad]" ], "description": "Unit: Radian" },
