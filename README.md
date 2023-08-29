@@ -56,6 +56,10 @@ Provides syntax highlighting for MODELCheck used by Creo Parametric. -->
 Provides syntax highlighting for PTC Startup File (PSF) used by Creo Parametric.
 
 
+<!-- ### pro-details (**Not Started**)
+Provides syntax highlighting for PRO/Table used by Creo Parametric. -->
+
+
 <!-- ### pro-table (**Not Started**)
 Provides syntax highlighting for PRO/Table used by Creo Parametric. -->
 
@@ -67,6 +71,8 @@ Provides syntax highlighting for hole chart files used by Creo Parametric.
 ## **Roadmap**
 - pro-program (**Not Started**)
 - pro-modelcheck (**Not Started**)
+- pro-details (**Not Started**)
+    - Language visualization (grammar) and code snippets for Detail Defaults syntax and options.
 - pro-table (**Not Started**)
 
 Future development as needed.
