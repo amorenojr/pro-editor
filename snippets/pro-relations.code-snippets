@@ -175,6 +175,8 @@
     "weighted_average": { "prefix": "weighted_average", "body": [ "weighted_average(${1:Param})" ], "description": "Returns the weighted average value of thecColumn values of the parameter. The weighted average is calculated by the formula: Sum (Ti+1-TI*(vi+1+VI/2))/(Tlast-T0). When argument values change with a constant step, the value returned is the simple arithmetic mean of all values. Where: Param—name of a parameter." },
     "rel_model_name": { "prefix": "rel_model_name", "body": [ "rel_model_name()" ], "description": "Returns the current model name." },
     "rel_model_type": { "prefix": "rel_model_type", "body": [ "rel_model_type()" ], "description": "Returns the current model type." },
+    "mdl_param_name": { "prefix": "mdl_param_name", "body": [ "mdl_param_name" ], "description": "Returns the model parameter name. Used in repeat region relations." },
+    "mdl_param_value": { "prefix": "mdl_param_value", "body": [ "mdl_param_value" ], "description": "Returns the model parameter value. Used in repeat region relations." },
     "(in sec^2)/lbm": { "prefix": "unit (in sec^2)/lbm", "body": [ "[(in sec^2)/lbm]" ], "description": "Unit: Inch, second squared per pound mass" },
     "(mm sec^2)/kg": { "prefix": "unit (mm sec^2)/kg", "body": [ "[(mm sec^2)/kg]" ], "description": "Unit: Millimeter, second squared per kilogram" },
     "/C": { "prefix": "unit /C", "body": [ "[/C]" ], "description": "Unit: Per degree Celsius" },
