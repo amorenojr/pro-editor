@@ -70,10 +70,13 @@ Provides syntax highlighting for hole chart files used by Creo Parametric.
 
 ## **Roadmap**
 - pro-program (**Not Started**)
+    - Language visualization (grammar) and code snippets for PRO/Program syntax.
 - pro-modelcheck (**Not Started**)
+    - Language visualization (grammar) and code snippets for MODELCheck syntax.
 - pro-details (**Not Started**)
     - Language visualization (grammar) and code snippets for Detail Defaults syntax and options.
 - pro-table (**Not Started**)
+    - Language visualization (grammar) and code snippets for PRO/Table syntax.
 
 Future development as needed.
 
